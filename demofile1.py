@@ -23,4 +23,3 @@ names=['SET_OF_BOOKS_ID','LEDGER_ID', 'GROUP_ID', 'USER_JE_CATEGORY_NAME', 'USER
 print(len(journal_col_names),len(names))
 for (i,j) in zip(journal_col_names,names):
     print('"'+i+'":"'+j+'"'+',')
-print("made changes for 2nd commit")
